@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[HaE] GravgunControl", "[HaE] GravgunControl\[HaE] GravgunControl.csproj", "{36117345-6F48-426D-BD89-8FDA7B7FF7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36117345-6F48-426D-BD89-8FDA7B7FF7E1}.Debug|x64.ActiveCfg = Debug|x64
+		{36117345-6F48-426D-BD89-8FDA7B7FF7E1}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A112CC-1B48-461B-A79C-C1EE27EACBA6}
+	EndGlobalSection
+EndGlobal
