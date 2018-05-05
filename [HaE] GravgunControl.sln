@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[HaE] GravgunControl", "[HaE] GravgunControl\[HaE] GravgunControl.csproj", "{36117345-6F48-426D-BD89-8FDA7B7FF7E1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HaE Serialization", "..\..\..\MDK_Projects\Shared Projects\HaE Serialization\HaE Serialization.shproj", "{633D8B24-4B3B-4C26-9480-DBA498CC7831}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\MDK_Projects\Shared Projects\HaE Serialization\HaE Serialization.projitems*{36117345-6f48-426d-bd89-8fda7b7ff7e1}*SharedItemsImports = 4
+		..\..\..\MDK_Projects\Shared Projects\HaE Serialization\HaE Serialization.projitems*{633d8b24-4b3b-4c26-9480-dba498cc7831}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 	EndGlobalSection
