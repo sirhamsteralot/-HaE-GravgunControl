@@ -83,8 +83,6 @@ namespace IngameScript
                 if (!projector.IsProjecting)
                     yield return false;
 
-                SetGravGens(false);
-
                 SetBuildBlocks(true);
 
                 projector.UpdateOffsetAndRotation(); //REEEEEEEEEEEEEEEEEEE
@@ -115,6 +113,8 @@ namespace IngameScript
                     SetLights(new Color(i, 75 - i, 75 - i), (75 - i) / 7.5);
                     yield return true;
                 }
+
+                SetGravGens(false);
             }
 
             private void SetLights(Color color, double intensity)

@@ -54,10 +54,20 @@ namespace IngameScript
             GridTerminalSystem.GetBlockGroups(gunGroups, x => x.Name.Contains(GravgunGroupTag));
         }
 
+
+        int waitForInit = 0;
         public void Main(string argument, UpdateType updateSource)
         {
             if (!initialized)
-                Init();
+            {
+                if (waitForInit++ == 10)
+                {
+                    Init();
+                    initialized = true;
+                }
+                return;
+            }
+                
 
             switch (argument)
             {
